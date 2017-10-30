@@ -7,5 +7,5 @@ import { Component } from "@angular/core"
 })
 
 export class LoginComponent{
-    hoten:String = "Chi Pham"
+    hoten:String = "Chi Pham";
 }
