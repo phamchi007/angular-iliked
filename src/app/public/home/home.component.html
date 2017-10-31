@@ -1,16 +1,27 @@
 <section><app-base-header></app-base-header></section>
-<section class="section-bg">
-    <div class="container">
-        <div class="panel panel-primary">
-            <input type="text" [(ngModel)]="hoten" value="{{hoten}}"/>
-                <input type="text" value="{{hoten}}"/>
-                <ul>
-                    <li *ngFor="let homeicon of homeiconlist"
-                        [class.selected]="homeicon === selectedHomeicon"
-                        (click)="onSelect(homeicon)">{{homeicon.icon_title}}</li>
-                </ul>
-                <p>{{selectedHomeicon.icon_title}}</p>
+<section class="page-content">
+    <section class="section-bg">
+        <div class="container"><!--
+                    <ul>
+                        <li *ngFor="let homeicon of homeiconlist"
+                            [class.selected]="homeicon === selectedHomeicon"
+                            (click)="onSelect(homeicon)">{{homeicon.icon_title}}</li>
+                    </ul>
+                    <p>{{selectedHomeicon.icon_title}}</p>-->
+                    <p>vfewbgv</p>
         </div>
-    </div>
+    </section>
+    <section class="section-bg">
+        <div class="container">
+            <!--
+                    <ul>
+                        <li *ngFor="let homeicon of homeiconlist"
+                            [class.selected]="homeicon === selectedHomeicon"
+                            (click)="onSelect(homeicon)">{{homeicon.icon_title}}</li>
+                    </ul>
+                    <p>{{selectedHomeicon.icon_title}}</p>-->
+                    <p>vfewbgv</p>
+        </div>
+    </section>
 </section>
 <app-base-footer></app-base-footer>

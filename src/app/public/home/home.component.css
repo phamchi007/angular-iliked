@@ -1,4 +1,10 @@
-section{
+.page-content section{
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+.page-content .section-bg:nth-child(1){
+    background-color: #666;
+}
+.page-content .section-bg:nth-child(2){
     background-color: #000;
-    height: 400px;
 }

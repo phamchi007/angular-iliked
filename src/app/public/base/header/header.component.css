@@ -92,7 +92,7 @@ nav.nav-bar ul {
 }
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
-  .nav-container,.container {
+  .nav-container{
     margin: 8% auto;
   }
   .nav-list li {
