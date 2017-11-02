@@ -30,11 +30,14 @@ export class PublicMemberComponent implements OnInit{
     
     openEdit(item:object): void{
         this.member.setMember(item);
-        
+        this.message = 'test';
     };
     getMember(){
         this.memberDatas;
     }
+    public handleEvent(childData:any){console.log(childData);
+		this.message = childData;
+	}
 }
 
 const MemberDatas: MemberData[] = [];
