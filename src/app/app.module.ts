@@ -15,7 +15,6 @@ import { PublicBaseFooterComponent } from './public/base/footer/footer.component
 
 import { PublicMemberComponent } from './public/member/member.component';
 
-
 const appRoutes: Routes = [ 
   { path: 'dang-nhap', component: PublicLoginComponent },
   { path: 'trang-chu', component: PublicHomeComponent },
